@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="uk" data-page="excursions">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Екскурсії — Ранчо Марко “Бабусині Кози”</title>
+  <meta name="description" content="Екскурсії на ферму «Ранчо Марко “Бабусині Кози”»: знайомство з козами, дегустація сирів, обіди та дитячі формати.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="excursions">
+  <div class="page-bg" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand"><a href="index.html">Ферма «Ранчо Марко “Бабусині Кози”»</a></div>
+    <nav class="main-nav" aria-label="Головна навігація">
+      <a href="index.html" class="nav-link">Головна</a>
+      <div class="nav-dropdown" data-dropdown>
+        <button class="nav-link dropdown-toggle" type="button" data-product-toggle aria-expanded="false">
+          Продукція <span class="chevron" aria-hidden="true">▾</span>
+        </button>
+        <div class="dropdown-panel" data-dropdown-panel>
+          <a href="products.html#classichni">Класичні</a>
+          <a href="products.html#kraftovi">Крафтові</a>
+          <a href="products.html#marinated">Мариновані</a>
+          <a href="products.html#vypichka">Випічка</a>
+          <a href="products.html#inshe">Інше</a>
+        </div>
+      </div>
+      <a href="favorites.html" class="nav-link">Обране</a>
+      <a href="excursions.html" class="nav-link active">Екскурсії</a>
+      <a href="contacts.html" class="nav-link">Контакти</a>
+    </nav>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Перемкнути тему">
+      <span class="theme-icon theme-sun" aria-hidden="true">☀</span>
+      <span class="theme-icon theme-moon" aria-hidden="true">☾</span>
+    </button>
+  </header>
+
+  <main class="page-shell">
+    <section class="section-card page-intro">
+      <p class="eyebrow">Формати відвідування ферми</p>
+      <h1>Екскурсії</h1>
+      <p class="lead">Усі формати включають знайомство з фермою, годування козочок, дегустацію сирів і випічки, а також можливість купити продукцію одразу на місці.</p>
+    </section>
+
+    <section class="excursion-grid">
+      <article class="section-card excursion-card">
+        <h2>1. Базова екскурсія</h2>
+        <p>Підходить для першого знайомства з фермою. Ви бачите козочок, слухаєте коротку розповідь про догляд, пробуєте сири та випічку, а потім можете одразу щось придбати.</p>
+        <div class="pill-row"><span>Годування</span><span>Дегустація</span><span>Покупка на місці</span></div>
+      </article>
+
+      <article class="section-card excursion-card">
+        <h2>2. Екскурсія з обідом</h2>
+        <p>До основної програми додається обід. У меню можуть бути шашлик, юшка, піца та інші страви за попереднім узгодженням. Якщо хочете щось інше, деталі уточнюються за телефоном.</p>
+        <div class="pill-row"><span>Обід</span><span>Шашлик</span><span>Юшка</span><span>Піца</span></div>
+      </article>
+
+      <article class="section-card excursion-card">
+        <h2>3. Дитяча екскурсія</h2>
+        <p>Легкий і безпечний формат для дітей: знайомство з фермою, міні-піца, попкорн, дегустація м’яких смаків і спокійна атмосфера без поспіху.</p>
+        <div class="pill-row"><span>Для дітей</span><span>Міні-піца</span><span>Попкорн</span></div>
+      </article>
+    </section>
+
+    <section class="section-card cta">
+      <h2>Потрібні дати, ціна або індивідуальний формат?</h2>
+      <p>Зателефонуйте за номером у контактах або напишіть у Telegram чи Viber — і ми підберемо зручний час.</p>
+      <a class="btn btn-primary" href="contacts.html">Перейти до контактів</a>
+    </section>
+  </main>
+
+  <div class="modal" id="legalModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-modal-close aria-label="Закрити">×</button>
+      <div class="modal-content" data-modal-content></div>
+    </div>
+  </div>
+
+  
+  </div>
+
+  <footer class="footer">
+    <button class="footer-link" type="button" data-open-legal="agreement">Користувацька угода</button>
+    <button class="footer-link" type="button" data-open-legal="consent">Згода на обробку персональних даних</button>
+    <button class="footer-link" type="button" data-open-legal="cookies">Повідомлення про cookies</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
