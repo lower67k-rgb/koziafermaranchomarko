@@ -1,0 +1,25 @@
+Назви зображень для сайту:
+- brynza.png
+- rikota.png
+- classic.png
+- lavanda.png
+- fistashka.png
+- coffee.png
+- tomat.png
+- troyanda.png
+- pazhitnik.png
+- balls.png
+- camembert.png
+- marinated_brynza.png
+- marinated_olives.png
+- palyanytsya.png
+- vanilla_bread.png
+- milk_bread.png
+- pumpkin_bread.png
+- onion_garlic_bread.png
+- milk.png
+- butter.png
+- excursion-1.jpg
+- excursion-2.jpg
+- excursion-3.jpg
+- ferma.png (за бажанням для фону/декору)
