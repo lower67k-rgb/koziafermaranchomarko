@@ -340,18 +340,22 @@
     </article>
 
     <article class="product-card" data-category="bakery" data-id="onion_garlic_bread">
-      <div class="product-card__image">
-        <img src="img/onion_garlic_bread.png" alt="Хліб з цибулею та часником" loading="lazy">
-        <button class="product-card__heart" type="button" aria-label="Додати в обране" data-fav-btn data-id="onion_garlic_bread">♡</button>
-        <span class="product-card__tag">Випічка</span>
-      </div>
-      <div class="product-card__body">
-        <h3 class="product-card__title">Хліб з цибулею та часником</h3>
-        <p class="product-card__desc">Ароматний хліб з карамелізованою цибулею та запеченим часником.</p>
-        <div class="tags"><span class="tag">Карамелізована цибуля</span><span class="tag">Запечений часник</span></div>
-        <div class="price">100 грн/штука</div>
-      </div>
-    </article>
+  <div class="product-card__image">
+    <img src="img/onion_garlic_bread.png" alt="Хліб з цибулею та часником" loading="lazy">
+    <button class="product-card__heart" type="button" aria-label="Додати в обране" data-fav-btn data-id="onion_garlic_bread">♡</button>
+    <span class="tag">Випічка</span>
+  </div>
+  <div class="product-card__body">
+    <h3 class="product-card__title">Хліб з цибулею та часником</h3>
+    <p class="product-card__desc">Ароматний хліб з карамелізованою цибулею та запеченим часником.</p>
+    <div class="tags">
+      <span class="tag">Карамелізована цибуля</span>
+      <span class="tag">Запечений часник</span>
+    </div>
+    <div class="price">100 грн/штука</div>
+  </div>
+</article>
+
 <article class="product-card" data-category="bakery" data-id="spinach_bread">
   <div class="product-card__image">
     <img src="img/spinach_bread.png" alt="Хліб зі шпинатом" loading="lazy">
@@ -368,6 +372,8 @@
     <div class="price">100 грн/штука</div>
   </div>
 </article>
+
+</div> <!-- ВАЖНО: закрыли product-grid bakery -->
 
 <div class="catalog-section" id="other" data-category="other">
   <div class="section-heading">
@@ -412,7 +418,8 @@
 
   </div>
 </div>
-    </main>
+
+</main>
     
     <footer class="footer">
       <div class="footer-col">
